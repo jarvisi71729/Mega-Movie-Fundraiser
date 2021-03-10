@@ -22,3 +22,10 @@ def string_checker(question, to_check):
                     return item
 
         print("Sorry that is not a valid response")
+
+#   *** Main Routine starts here ***
+for item in range(0, 6):
+    want_snacks = string_checker("Do you want "
+                                 "snacks? ", ["yes", "no"])
+    print("Anser OK, you said:", want_snacks)
+    print()
