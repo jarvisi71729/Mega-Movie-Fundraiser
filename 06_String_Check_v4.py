@@ -46,6 +46,8 @@ check_snack = "invalid choice"
 while check_snack == "invalid choice":
     want_snack = input("Do you want to order snacks? ").lower()
     check_snack = string_check(want_snack, yes_no)
+    if check_snack == "invalid choice":
+        print("Please say yes / no")
 
 # If they say yes, ask what snacks they want (and add to our snack_order list)
 if check_snack == "Yes":
@@ -55,12 +57,17 @@ if check_snack == "Yes":
         # ask user for desired snack and put it in lowercase
         desired_snack = input("Snack: ").lower()
 
+        if desired_snack == "invalid choice":
+            print("Please enter a valid option")
         if desired_snack == "xxx":
             break
 
         # check if snack is valid
         snack_choice = string_check(desired_snack, valid_snacks)
-        print("Snack Choice: ", snack_choice)
+        if snack_choice == "invalid choice":
+            print("Please enter a valid choice")
+        else:
+            print("Snack Choice: ", snack_choice)
 
         # add snack to list...
 
