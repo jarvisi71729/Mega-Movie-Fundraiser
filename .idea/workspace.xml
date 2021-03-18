@@ -33,8 +33,8 @@
       <file leaf-file-name="06_String_Check_v3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06_String_Check_v3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -43,8 +43,8 @@
       <file leaf-file-name="06_String_Check_v4.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06_String_Check_v4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="67" column="24" selection-start-line="65" selection-start-column="8" selection-end-line="69" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -53,10 +53,10 @@
       <file leaf-file-name="06_String_Check_v5.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/06_String_Check_v5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="93" column="41" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
+            <state relative-caret-position="436">
+              <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
               <folding>
-                <marker date="1616026174805" expanded="false" signature="45:634" ph="..." />
+                <marker date="1616026722686" expanded="false" signature="45:634" ph="..." />
               </folding>
             </state>
           </provider>
@@ -92,10 +92,10 @@
         <option value="$PROJECT_DIR$/06_String_Check.py" />
         <option value="$PROJECT_DIR$/06_String_Check_v2.py" />
         <option value="$PROJECT_DIR$/05_Yes_No_v2.py" />
-        <option value="$PROJECT_DIR$/06_String_Check_v3.py" />
         <option value="$PROJECT_DIR$/06_String_Check_v4.py" />
         <option value="$PROJECT_DIR$/07_string_analyser.py" />
         <option value="$PROJECT_DIR$/07_string_analyser_v2.py" />
+        <option value="$PROJECT_DIR$/06_String_Check_v3.py" />
         <option value="$PROJECT_DIR$/06_String_Check_v5.py" />
       </list>
     </option>
@@ -164,7 +164,7 @@
       <recent name="C:\Users\jarvisi71729\OneDrive - Massey High School\COM201\Mega-Movie-Fundraiser" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.07_string_analyser">
+  <component name="RunManager" selected="Python.06_String_Check_v5">
     <configuration default="false" name="06_String_Check_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,23 +178,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Mega-Movie-Fundraiser" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_String_Check_v2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="05_Yes_No_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Mega-Movie-Fundraiser" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_Yes_No_v2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -246,6 +229,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Mega-Movie-Fundraiser" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_string_analyser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="06_String_Check_v5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Mega-Movie-Fundraiser" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_String_Check_v5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -386,18 +386,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.06_String_Check_v2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.05_Yes_No_v2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.06_String_Check_v3" />
-      <item index="3" class="java.lang.String" itemvalue="Python.06_String_Check_v4" />
-      <item index="4" class="java.lang.String" itemvalue="Python.07_string_analyser" />
+      <item index="1" class="java.lang.String" itemvalue="Python.06_String_Check_v3" />
+      <item index="2" class="java.lang.String" itemvalue="Python.06_String_Check_v4" />
+      <item index="3" class="java.lang.String" itemvalue="Python.07_string_analyser" />
+      <item index="4" class="java.lang.String" itemvalue="Python.06_String_Check_v5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.07_string_analyser" />
-        <item index="1" class="java.lang.String" itemvalue="Python.06_String_Check_v4" />
-        <item index="2" class="java.lang.String" itemvalue="Python.06_String_Check_v3" />
-        <item index="3" class="java.lang.String" itemvalue="Python.06_String_Check_v2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.05_Yes_No_v2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.06_String_Check_v5" />
+        <item index="1" class="java.lang.String" itemvalue="Python.06_String_Check_v3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.06_String_Check_v4" />
+        <item index="3" class="java.lang.String" itemvalue="Python.07_string_analyser" />
+        <item index="4" class="java.lang.String" itemvalue="Python.06_String_Check_v2" />
       </list>
     </recent_temporary>
   </component>
@@ -416,14 +416,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3611691" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3329776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3329776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -655,14 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06_String_Check_v3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07_string_analyser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -679,20 +671,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/06_String_Check_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/06_String_Check_v4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="67" column="24" selection-start-line="65" selection-start-column="8" selection-end-line="69" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/06_String_Check_v5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="93" column="41" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
+        <state relative-caret-position="436">
+          <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
           <folding>
-            <marker date="1616026174805" expanded="false" signature="45:634" ph="..." />
+            <marker date="1616026722686" expanded="false" signature="45:634" ph="..." />
           </folding>
         </state>
       </provider>

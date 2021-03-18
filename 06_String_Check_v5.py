@@ -24,7 +24,6 @@ def string_check(choice, options):
         return "invalid choice"
 
 
-
 # regular expression to find if item starts with a number
 number_regex = "^[1-9]"
 
@@ -85,6 +84,10 @@ if check_snack == "Yes":
 
         # check if snack is valid
         snack_choice = string_check(desired_snack, valid_snacks)
+        if snack_choice == "invalid choice":
+            print("Please enter a valid choice")
+        # else:
+        #     print("Snack Choice: ", snack_choice)
 
         # check snack amount is valid (less than 5)
         if amount >= 5:
@@ -96,7 +99,7 @@ if check_snack == "Yes":
 
         # check that snack is not the exit code before adding
         if snack_choice != "xxx" and snack_choice != "invalid choice":
-            snack_order.append(snack_choice)
+            snack_order.append(amount_snack)
 
 # Show snack orders
 print()
@@ -104,7 +107,7 @@ if len(snack_order) == 0:
     print("Snacks Ordered: None")
 
 else:
-    print("Snacks Ordered:")
+    print("Snacks Ordered: ")
 
     for item in snack_order:
         print(item)
