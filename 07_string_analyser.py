@@ -1,7 +1,7 @@
 import re
 
 # works out whether string has numbers
-# and seperates string into amount and item
+# and separates string into amount and item
 
 test_strings = [
     "Popcorn",
