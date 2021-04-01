@@ -298,8 +298,7 @@ movie_frame = movie_frame.set_index('Name')
 # create column called 'Sub Total'
 # fill it price for snacks and ticket
 
-movie_frame["Sub Total"] = \
-    movie_frame['Ticket'] + \
+movie_frame["Snacks"] = \
     movie_frame['Popcorn'] * price_dict['Popcorn'] + \
     movie_frame['Water'] * price_dict['Water'] + \
     movie_frame['Pita Chips'] * price_dict['Pita Chips'] + \
@@ -347,7 +346,7 @@ pandas.set_option('precision', 2)
 
 print()
 print("*** Ticket / Snack Information ***")
-print("Note: for full details, please see the excel file called _____")
+print("Note: for full details, please see the excel file called 'Ticket Summary'")
 print()
 print(movie_frame[['Ticket', 'Snacks', 'Sub Total',
                     'Surcharge', 'Total']])
