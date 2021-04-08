@@ -48,7 +48,7 @@ def get_ticket_price():
         return "invalid ticket price"
     elif age > 130:
         print("You are too old!")
-        return "invalid choice"
+        return "invalid ticket price"
 
     if age < 16:
         ticket_price = 7.5
@@ -305,11 +305,15 @@ movie_frame["Snacks"] = \
     movie_frame['M&Ms'] * price_dict['M&Ms'] + \
     movie_frame['Orange Juice'] * price_dict['Orange Juice']
 
+movie_frame["Sub Total"] = \
+    movie_frame['Ticket'] + \
+    movie_frame['Snacks']
+
 movie_frame["Surcharge"] = \
     movie_frame["Sub Total"] * movie_frame["Surcharge_Multiplier"]
 
 movie_frame["Total"] = movie_frame["Sub Total"] + \
-                       movie_frame['Surcharge']
+       movie_frame['Surcharge']
 
 # shorten column names
 movie_frame = movie_frame.rename(columns={'Orange Juice': 'OJ', 'Pita Chips': 'Chips', 'Surcharge_Multiplier': 'SM'})
@@ -359,14 +363,18 @@ print(summary_frame)
 
 # tell user if they have unsold tickets...
 if ticket_count == MAX_TICKETS:
+    print()
     print("You have sold all the available tickets!")
 
 elif ticket_count == 1:
+    print()
     print("You have sold 1 ticket\nThere are still 4 seats still available")
 
 elif MAX_TICKETS - ticket_count == 1:
+    print()
     print("You have sold {} tickets\nThere is still {} seat available".format(ticket_count, MAX_TICKETS - ticket_count))
 
 else:
+    print()
     print(
         "You have sold {} tickets\nThere are still {} seats available".format(ticket_count, MAX_TICKETS - ticket_count))
