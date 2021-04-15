@@ -17,11 +17,6 @@ lblue = u"\u001b[36m"
 grey = u"\u001b[37m"
 xxx = u"\u001b[37m\u001b[0m\u001b[36m"
 
-colours = [
-      black
-      red
-      green
-]
 
 print("{}sausage".format(dblue))
 print("{}john".format(xxx))
